@@ -4,7 +4,6 @@ Rankings of my current anime shows.
 ## Setup
 
 - [Vite.js](https://vitejs.dev/guide/)
-- [Webpack.js](https://webpack.js.org/concepts/)
 - [Eslint.js](https://eslint.org/docs/latest/)
 - [Typescript](https://nextjs.org/docs)
 
@@ -12,7 +11,6 @@ Rankings of my current anime shows.
 
 - Vite: npm create vite@latest
 - React: npm i @types/react --save-dev
-- Webpack: npm i -D webpack webpack-cli
 - Eslint and Prettier: npm install --save-dev eslint-config-prettier
 - Typescript: npm install typescript --save-dev
 
