@@ -1,23 +1,23 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.scss'
-import './Navbar'
+import NavBar from './Navbar'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <div>
-      </div>
+        <div>      
+          <NavBar title="Home" />
+        </div>
       <h1>Anime Ranking</h1>
-      <div className="card">
+      <div className="anime-card">
         <p>
-          My ranking each month with regards to Anime. 
+          My anime ranking based on what I've watched for a month. 
         </p>
       </div>
     </div>
   )
 }
 
-export default App
+export default App;
