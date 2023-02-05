@@ -2,12 +2,10 @@ import './App.scss'
 import React from 'react'
 import './Nav.scss'
 
-function Nav({}: Props): ReactElement {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+interface NavBarProps {
+    title: string;
+  }
 
-export default Nav
+const NavBar: React.FunctionComponent<NavBarProps> = ({ title }) => 
+    <div className="nav-title">{title}</div>
+export default NavBar;
