@@ -33,7 +33,8 @@
 }
 
 .anime-card {
-  padding: 2em;
+  padding-top: 0;
+  padding-bottom: 2rem;
 }
 
 .read-the-docs {
@@ -44,4 +45,10 @@ h1{
   display: flex;
   justify-content: center;
   top: 5rem;
+}
+
+.header{
+  margin: 0;
+  font-size: 7rem;
+  text-shadow: 2px 2px 5px #000000;
 }
